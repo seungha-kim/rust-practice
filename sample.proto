@@ -1,0 +1,13 @@
+syntax = "proto3"
+
+
+/* 주석
+*/
+message SearchRequest {
+  string query = 1; // 주석
+  int32 page_number = 2;
+}
+
+message SearchResponse {
+
+}
